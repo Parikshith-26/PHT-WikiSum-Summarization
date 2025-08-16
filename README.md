@@ -27,7 +27,7 @@ PHT-WikiSum-Summarization/
 
 ## Installation
 1. Clone this repository:
-```bash
+
 git clone <your-repo-link>
 cd PHT-WikiSum-Summarization
 
@@ -37,17 +37,17 @@ pip install -r requirements.txt
 ## How to Run
 1. Open the notebook in notebooks/.
 2. Follow the cells step by step:
--Load and preprocess the dataset
--Tokenize data
--Train or evaluate the PHT model
--Save results to results/
+- Load and preprocess the dataset
+- Tokenize data
+- Train or evaluate the PHT model
+- Save results to results/
 3. Evaluation:
--ROUGE scores will be printed for the model
--Comparison charts saved in results/
+- ROUGE scores will be printed for the model
+- Comparison charts saved in results/
 
 ## Datasets
--WikiSum
--CNN/DailyMail
+- WikiSum
+- CNN/DailyMail
 
 ## Example ROUGE Scores
 Model	ROUGE-1	ROUGE-2	ROUGE-L
@@ -56,12 +56,12 @@ BART (sample CPU)	0.018	0.002	0.016
 PHT (Quick ROUGE, CPU, small subset)	0.0155	0.0000	0.0155
 
 ## Outputs
--ROUGE evaluation scores
--Comparison charts (tables or plots)
--CSV files in results/
+- ROUGE evaluation scores
+- Comparison charts (tables or plots)
+- CSV files in results/
 
 ## Notes
--CPU is used for faster experimentation on small subsets
--For full dataset training, GPU is recommended
--Ensure your requirements.txt versions match your environment
--All plots and CSVs are saved in results/ folder
+- CPU is used for faster experimentation on small subsets
+- For full dataset training, GPU is recommended
+- Ensure your requirements.txt versions match your environment
+- All plots and CSVs are saved in results/ folder
