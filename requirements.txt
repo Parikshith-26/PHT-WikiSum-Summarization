@@ -1,0 +1,8 @@
+
+transformers==4.55.0
+datasets==4.0.0
+rouge_score==0.1.2
+torch==2.6.0
+numpy==2.0.2
+pandas==2.2.2
+matplotlib==3.10.0
